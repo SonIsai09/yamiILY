@@ -113,7 +113,7 @@ nav ul li a .quinto {
  
  #contenedor
 {
-	background-image: url("../imagenes/fondo.jpg");
+	background-image: url("../imagenes/fondo1.jpg");
    background-size:110%;
     background-attachment: fixed;
 	width:100%;
@@ -305,7 +305,7 @@ body {
 	width: 100vw;
 	flex-shrink: 0;
 	animation-name: slide;
-	animation-duration: 20s;
+	animation-duration: 10s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 }
@@ -315,7 +315,7 @@ body {
 }
 
 .slide img {
-	width: 30%;
+	width: 20%;
 	vertical-align: top;
 	
      margin-left: 400px;
@@ -384,6 +384,30 @@ body {
 		bottom: 96px;
 		right: 50px;
 	}
+}
+
+
+
+.boton {
+text-decoration:none;
+font-weight:100;
+font-size:15px;
+color:#ffffff;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:50px;
+padding-right:50px;
+background-color:#000000;
+margin-left: 1750px;
+border:1px;
+position:relative;
+bottom:33px;
+
+
+}
+/* Este es el estilo al poner el cursor encima del boton*/
+.boton:hover {
+background-color:#1977EF;
 }
 
 

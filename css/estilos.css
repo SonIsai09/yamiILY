@@ -5,26 +5,17 @@ h2{
   background: -webkit-linear-gradient(#ff0000, #7686fd);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  position:relative;
+  bottom:250px;
 }
 
 h2 {
 animation-duration: 12s !important; /*tiempo que dura la animación*/ 
-animation-delay: 40s; /*tiempo de espera hasta que se produce la animación*/
+animation-delay: 17s; /*tiempo de espera hasta que se produce la animación*/
 /*  animation-iteration-count: infinite;*/
 }
 
-h3{
-   font-size: 72px;
-  background: -webkit-linear-gradient(#ff0000, #7686fd);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
-h3 {
-animation-duration: 12s !important; /*tiempo que dura la animación*/ 
-animation-delay: 45s; /*tiempo de espera hasta que se produce la animación*/
-/*  animation-iteration-count: infinite;*/
-}
 
 
 
@@ -38,9 +29,14 @@ animation-delay: 45s; /*tiempo de espera hasta que se produce la animación*/
 
 h4{
 animation-duration: 12s !important; /*tiempo que dura la animación*/ 
-animation-delay: 3s; /*tiempo de espera hasta que se produce la animación*/
+animation-delay: 19s; /*tiempo de espera hasta que se produce la animación*/
 /*  animation-iteration-count: infinite;*/
 }
+
+
+
+
+
 
 
 
