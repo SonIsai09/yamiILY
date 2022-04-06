@@ -112,16 +112,7 @@ nav ul li a .quinto {
 }
  
  #contenedor
-{
-	background-image: url("../imagenes/fondo1.jpg");
-   background-size:110%;
-    background-attachment: fixed;
-	width:100%;
-	margin:1 auto;
-	box-shadow:0px 0px 10px #000;
-	border-radius:10px;
-	border:1px solid black;
-}
+
 header {
 	margin-top:10px;
     width: 100%;
@@ -252,11 +243,7 @@ padding-bottom:0;
  
 }
 
-html { scroll-behavior: smooth; }
 
-body {
-	font-family: sans-serif;
-}
 
 
 
@@ -398,7 +385,7 @@ padding-bottom:15px;
 padding-left:50px;
 padding-right:50px;
 background-color:#000000;
-margin-left: 1750px;
+margin-left: 1400px;
 border:1px;
 position:relative;
 bottom:33px;
@@ -411,3 +398,24 @@ background-color:#1977EF;
 }
 
 
+body, html {
+    height: 90%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url("../imagenes/fondo1.jpg");
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+	font-family: sans-serif;
+}
