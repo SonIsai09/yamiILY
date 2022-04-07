@@ -116,7 +116,7 @@ nav ul li a .quinto {
 
 
 
- #contenedor1
+ /*#contenedor1
 {
 	background-image: url("../Imagenes/fondo1.jpg");
    background-size:110%;
@@ -126,7 +126,7 @@ nav ul li a .quinto {
 	box-shadow:0px 0px 10px #000;
 	border-radius:10px;
 	border:1px solid black;
-}
+}*/
 header {
 	margin-top:10px;
     width: 100%;
@@ -189,7 +189,20 @@ hr {
     
     
    
-    margin-left: 700px;
+    margin-left: 1500px;
+    margin-right: 1500px;
+    position:relative;
+    bottom:70px;
+   
+  
+}
+
+
+#cajita1{
+    
+    
+   
+    margin-left: 1100px;
     margin-right: 1500px;
     position:relative;
     bottom:70px;
@@ -202,10 +215,10 @@ hr {
     
     
    
-    margin-left: 600px;
+    margin-left: 1800px;
     margin-right: 1500px;
     position:relative;
-    bottom:50px;
+    bottom:500px;
    
   
 }
@@ -213,10 +226,52 @@ hr {
     
     
    
-    margin-left: 1200px;
+    margin-left: 1400px;
     margin-right: 1500px;
     position:relative;
-    bottom:1200px;
+    bottom:500px;
+   
+  
+}
+
+
+#cajita4{
+    
+    
+   
+    margin-left: 1100px;
+    margin-right: 1500px;
+    position:relative;
+    bottom:600px;
+   
+  
+}
+
+
+
+
+#cajita5{
+    
+    
+   
+    margin-left: 1800px;
+    margin-right: 1500px;
+    position:relative;
+    bottom:1000px;
+   
+  
+}
+
+
+
+#cajita6{
+    
+    
+   
+    margin-left: 1500px;
+    margin-right: 1500px;
+    position:relative;
+    bottom:1000px;
    
   
 }
@@ -243,7 +298,7 @@ padding-bottom:15px;
 padding-left:50px;
 padding-right:50px;
 background-color:#000000;
-margin-left: 1750px;
+margin-left:2500px;
 border:1px;
 position:relative;
 bottom:33px;
@@ -253,4 +308,21 @@ bottom:33px;
 /* Este es el estilo al poner el cursor encima del boton*/
 .boton:hover {
 background-color:#1977EF;
+}
+
+
+body, html {
+    height: 90%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url("../Imagenes/fondo1.jpg");
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
 }
