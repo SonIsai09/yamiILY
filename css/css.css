@@ -376,7 +376,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-image: url("../imagenes/fondo1.jpg");
+    background-image: url("../Imagenes/fondo1.jpg");
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
